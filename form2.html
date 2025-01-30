@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Basic Info</legend>
+
+            <label for="name">Name</label>
+        <input type="text" name="name" id="">
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="">
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" id="">
+        <label for="number">Mobile</label>
+        <input type="number" name="number" id="">
+        <label for="DOB">Date of Birth </label>
+        <input type="date" name="DOB" id="">
+        <input type="radio" name="gender" id="">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="">
+        <label for="gender">Female</label> <br>
+        <input type="checkbox" name="car1" id="">
+        <label for="car1">BMW</label>
+        <input type="checkbox" name="car2" id="">
+        <label for="car2">AUDI</label>
+        <input type="checkbox" name="car3" id="">
+        <label for="car3">Mustang</label>
+        </fieldset>
+       
+        <label for="city">Serlect your4 fav city</label>
+        <select name="city" id="">
+            <option value="NCR">NCR</option>
+            <option value="Kullu" selected>Kullu</option>
+            <option value="Mohali">Mohali</option>
+        </select>
+        <textarea name="" id="" cols="20" rows="10"></textarea>
+        <input type="color" name="fav-color" id="">
+        <input type="file" name="doc" id="" multiple>
+        <input type="submit" value="Submit">
+        <input type="button" value="Button">
+        <button type="submit">Login</button>
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
